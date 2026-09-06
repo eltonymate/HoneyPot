@@ -115,7 +115,7 @@ Left the honeypot exposed for **24 hours** before pulling results.
 ## 10. Analyze the logs
 
 Wrote a Python script to parse `cowrie.json` and produce an aggregate summary:
-
+You can use the code  `analyze_logs.py` in the repo
 - Counts connection events per source IP
 - Geolocates each IP via a batch IP-geolocation API
 - Counts frequency of every command the attackers typed
